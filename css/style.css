@@ -33,6 +33,14 @@
     font-weight: 600;
 }
 
+@font-face {
+    font-family: 'Uroob';
+    src: url('../fonts/Uroob-Regular.woff') format('woff'),
+         url('../fonts/Uroob-Regular.ttf') format('truetype'),
+    font-weight: normal;
+    font-style: normal;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -51,7 +59,9 @@ body {
  /* text-align: right; 
     margin-right: 40px; */
 }
+.services{
 
+}
 h5{
     font-family: Axiforma;
     font-style: normal;
@@ -79,6 +89,8 @@ h2{
 
 .wahini{
     margin-right: 10px;
+    font-family: Uroob;
+    font-style: normal;
 }
 
 .faq{
@@ -88,7 +100,7 @@ h2{
     justify-content: center;
     text-align: right;
     margin-top: 0%;
-    margin-right: 10px;
+    margin-right: 50px;
     font-size: 1.2em;
     padding: 5px;
 
@@ -192,6 +204,7 @@ nav{
     align-items: left;
     /* text-align: right; */
     color: white;
+    margin-right: 40px
     
 }
 
@@ -316,10 +329,11 @@ footer{
 
     .wahini{
         align-items: center;
-        justify-content: center;
-        text-align: right;
-        margin-top: 0%;
-        font-size: 1.5em;
+justify-content: center;
+text-align: right;
+margin-top: 0%;
+font-size: 1.5em;
+margin-right: 60px;
     }
 
     .faq{
@@ -330,10 +344,13 @@ footer{
         margin-top: 0%;
         font-size: 1.2em;
         padding: 5px;
+        margin-right: 60px;
+    }
     }
 
     .all-right{
         text-align: right;
+        margin-right: 60px;
     }
 
     .services{
@@ -341,6 +358,7 @@ footer{
         align-items: center;
         text-align: center;
         margin-left: 0;
+        margin-right: 60px;
     }
     
     .services h6{

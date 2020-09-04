@@ -96,9 +96,9 @@ h2{
 }
 .innerhead{
     font-family: Axiforma;
-    font-style: italic;
+    font-style: normal;
     font-weight: 600;
-    font-size: 1.3vw;
+    font-size: 4vw;
     text-align: right;
     color: white;
     margin-right: 30px;
