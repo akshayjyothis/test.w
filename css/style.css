@@ -34,9 +34,21 @@
 }
 
 @font-face {
-    font-family: 'Uroob';
-    src: url('../fonts/Uroob-Regular.woff') format('woff'),
-         url('../fonts/Uroob-Regular.ttf') format('truetype'),
+    font-family: 'Ker';
+    src: url('../fonts/Keraleeyam-Regular.woff') format('woff'),
+         url('../fonts/Keraleeyam-Regular.ttf') format('truetype'),
+         url('../fonts/Keraleeyam-Regular.woff2') format('woff2');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'chil';
+    src: url('../fonts/Chilanka-Regular.otf') format('otf'),
+         url('../fonts/Chilanka-Regular.ttf') format('truetype'),
+         url('../fonts/Chilanka-Regular.woff2') format('woff2');
+
     font-weight: normal;
     font-style: normal;
 }
@@ -88,9 +100,10 @@ h2{
 }
 
 .wahini{
-    margin-right: 10px;
-    font-family: Uroob;
+    font-family: Ker;
     font-style: normal;
+    letter-spacing: 1px;
+    
 }
 
 .faq{
@@ -100,7 +113,6 @@ h2{
     justify-content: center;
     text-align: right;
     margin-top: 0%;
-    margin-right: 50px;
     font-size: 1.2em;
     padding: 5px;
 
@@ -108,7 +120,6 @@ h2{
 
 .all-right{
     text-align: right;
-    margin-right: 10px;
 }
 
 hr{
@@ -176,6 +187,7 @@ nav{
 
 .section{
     display: flex;
+    margin-right: 60px;
 }
 
 .working-image{
@@ -204,7 +216,6 @@ nav{
     align-items: left;
     /* text-align: right; */
     color: white;
-    margin-right: 40px
     
 }
 
@@ -332,8 +343,8 @@ footer{
 justify-content: center;
 text-align: right;
 margin-top: 0%;
-font-size: 1.5em;
-margin-right: 60px;
+font-size: 2em;
+
     }
 
     .faq{
@@ -344,21 +355,17 @@ margin-right: 60px;
         margin-top: 0%;
         font-size: 1.2em;
         padding: 5px;
-        margin-right: 60px;
     }
     }
 
     .all-right{
         text-align: right;
-        margin-right: 60px;
     }
 
     .services{
         justify-content: center;
         align-items: center;
         text-align: center;
-        margin-left: 0;
-        margin-right: 60px;
     }
     
     .services h6{
@@ -402,5 +409,5 @@ a:hover {
 }
 
 .option:hover {
-    color: #5ca54b;
+    color: greenyellow;
 }
